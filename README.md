@@ -22,11 +22,11 @@ This project is a clone of the popular social media platform Instagram, built us
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/instagram-clone.git
+   git clone https://github.com/JuberSK7/insta_clone_mern.git
 
 ## Install dependencies:
 
-cd instagram-clone
+cd insta_clone_mern
 npm install
 
 ## Configure MongoDB:
