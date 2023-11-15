@@ -1,0 +1,281 @@
+/* Layout CSS start here */
+
+.layout{
+    display: flex;
+}
+.aside{
+    flex: 0.7;
+    background-color: #fff;
+    border-right: 1px solid silver;
+}
+.home{
+    flex: 4;
+    background-color: #fff;
+   
+}
+
+
+/* Layout CSS end here */
+/* ====================================================================================== */
+
+/* Home CSS start here */
+.avtr_img{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    border: 3px solid red;
+    margin: 8px;
+}   
+.story_nav{
+    display: flex;
+
+}
+.post_section{
+    display: flex;
+    justify-content: space-around;
+   
+   
+}
+.posts_scorll{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.about_profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 14px;
+}
+.profile_name{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.profile_name img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.about_username{
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 0;
+}
+.about_name{
+    font-size: 15px;
+    font-weight: 400;
+    color: #8d8b8b;
+    margin-top: 3px;
+    margin-bottom: 0;
+}
+.profile_switch{
+    color: rgb(29, 29, 248);
+    font-size: 17px;
+    font-weight: 400;
+}
+.suggest_users{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6px;
+    width: 300px;
+}
+/* .suggest_users p{
+    margin-bottom: 0;
+} */
+.suggest_user_img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.suggest_username{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.suggest_userid{
+font-size: 16px;
+color: black;
+font-weight: 400;
+cursor: pointer;
+margin-bottom: 0;
+}
+.suggest_userfullname{
+    font-size: 12px;
+    cursor: pointer;
+    margin-bottom: 0;
+
+}
+.suggest_user_follow{
+    font-size: 14px;
+    font-weight: 400;
+    color: blue;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+
+@media  screen and (max-width:320px) {
+    .about_user{
+    display: none;
+    } 
+}
+
+
+/* Home CSS end here */
+/* ======================================================================================== */
+
+/* Aside CSS start here */
+.aside_main{
+    position: fixed;
+}
+
+.aside_logo{
+    width: 20%;
+    /* margin-left: 20px; */
+    margin-top: 20px;
+}
+.aside_list{
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+.aside_list li {
+    display: flex;
+    align-items: center;
+    /* margin-left: 22px; */
+    gap: 12px;
+    cursor: pointer;
+    width: 200px;
+}
+.list_icon{
+    font-size: 26px;
+}
+
+@media  screen and (max-width:320px) {
+    .aside_list{
+    display: none;
+    } 
+}
+/* Aside CSS end here */
+
+
+/* ================================================================================= */
+/* Model Post Form CSS start here */
+.create_post-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hide_input{
+    display: none;
+}
+.selected_post_img{
+    width: 300px;
+    height: 300px;
+}
+.post_selected_file{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.discription_text{
+    width: 300px;
+    margin-top: 6px;
+}
+.create_post_btn{
+    width: 250px;
+    padding: 6px;
+    color: #fff;
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+/* Model Post Form CSS end here */
+/* ================================================================================= */
+/*  Post CSS start here */
+.post{
+    width: 400px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+
+.post_logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.post_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+.post_header svg{
+    font-size: 20px;
+}
+.header_left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.post_image{
+width: 400px;
+
+}
+.post_image img{
+    width: 100%;
+    border-radius: 8px;
+ 
+}
+.post_discription{
+    margin-top: 8px;
+}
+.post_discription span{
+    font-size: 15px;
+    color: black;
+    font-weight: 600;
+}
+.like_comment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+}
+.like_comment svg{
+    font-size: 20px;
+}
+.post_comment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+}
+.post_comment svg{
+    font-size: 20px;
+}
+.comment_input{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 400px;
+    padding: 8px;
+    outline: none;
+}
+.likes_icons{
+    display: flex;
+    gap: 10px;
+}
+.likes_icons svg{
+    font-size: 20px;
+}
+/*  Post CSS end here */

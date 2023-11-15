@@ -1,0 +1,60 @@
+.form_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url('../assests/register_bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 400px;
+    border-radius: 8px;
+}
+.insta_name{
+    height: 80px;
+}
+.form input{
+    padding: 12px 12px 8px 8px;
+    width: 300px;
+    border-radius: 5px;
+    margin: 12px;
+    font-size: 14px;
+    font-family: sans-serif;
+    border: 1px solid black;
+    outline: none;
+}
+.submit_btn{
+    background: blue;
+    padding: 12px;
+    width: 300px;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.link_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+
+}
+.link_box p {
+    font-size: 14px;
+    font-family: sans-serif;
+}
